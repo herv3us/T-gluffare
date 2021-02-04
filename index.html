@@ -16,19 +16,28 @@
                     <label for="name">Namn</label>
                     <input type="text" name="name" id="name" placeholder="John Doe." required>
                 </article>
-                <article class="form-controll">
+                <article class="form-control">
                     <label for="tel_nummer">Telefon Nummer</label>
                     <input type="number" name="telfon" id="tel_nummer" placeholder="+46 (0) 9924401" required>
                 </article>
-                <article class="form-controll">
+                <article class="form-control">
                     <label for="email">Email</label>
                     <input type="email" name="email" id="email" placeholder="john.doe@mail.com" required>
                 </article>
             </section>
 
             <section>
-
+                <h3>Res Information</h3>
+                <article class="form-control">
+                    <label for="avresa">När åker du?</label>
+                    <input type="date" name="avresa" id="avresa" required>
+                </article>
+                <article class="form-control">
+                    <label for="hemresa">När kommer du hem?</label>
+                    <input type="date" name="hemresa" id="hemresa" required>
+                </article>
             </section>
+            <button type="submit" class="btn">Nu åker vi!</button>
         </form>
     </main>
 </body>
